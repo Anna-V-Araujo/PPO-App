@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Android\\AndroidStudioProjects\\TesteBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Android\\AndroidStudioProjects\\TesteBluetoothChat\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Android\\AndroidStudioProjects\\TesteBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "C:\\Android\\AndroidStudioProjects\\TesteBluetoothChat\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    }
+]
