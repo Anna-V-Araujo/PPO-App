@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.bluetoothchat;
+package com.example.android.comunicacaoBluetooth;
 
 import android.app.ActionBar;
 import android.app.Activity;
