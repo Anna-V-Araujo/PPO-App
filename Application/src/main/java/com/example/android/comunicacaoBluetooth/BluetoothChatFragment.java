@@ -42,7 +42,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.android.bluetoothchat.R;
 import com.example.android.common.logger.Log;
+import com.example.android.protocoloComunicacao.PacoteConfirmacao;
+import com.example.android.protocoloComunicacao.PacoteDadosBPM;
 
 /**
  * This fragment controls Bluetooth to communicate with other devices.
@@ -298,8 +301,22 @@ public class BluetoothChatFragment extends Fragment {
                     break;
                 case Constants.MESSAGE_READ:
                     byte[] readBuf = (byte[]) msg.obj;
+
+                    PacoteDadosBPM pacoteDadosBPM = new PacoteDadosBPM();
+                    pacoteDadosBPM.decode(readBuf);
+
+                    if(pacoteDadosBPM.validarPreenchimento() == 0){
+                        PacoteConfirmacao pacoteConfirmacao = new PacoteConfirmacao(pacoteDadosBPM.getId(), 0);
+                        mChatService.write(pacoteConfirmacao.encode());
+                    } else {
+                        PacoteConfirmacao pacoteConfirmacao = new PacoteConfirmacao(pacoteDadosBPM.getId(), 1);
+                        mChatService.write(pacoteConfirmacao.encode());
+                        //Preferi mostrar um toast do que criar exceção
+                        Toast.makeText(activity, "O Pacote de Dados não foi recebido completamente", Toast.LENGTH_LONG).show();
+                    }
+
                     // construct a string from the valid bytes in the buffer
-                    int posicaoMax = 10;
+                    //Depois posso tirar isso
                     String readMessage = new String(readBuf, 0, msg.arg1 /*Tamanho da mensagem*/);
 /*                    String readMessage = "";
                     for(int i = 0; i < readBuf.length; i++) {

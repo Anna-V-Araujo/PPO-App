@@ -74,4 +74,20 @@ public class PacoteDadosBPM {
         this.segundo = buffer[7];
         this.bpm = buffer[8];
     }
+
+
+    public int validarPreenchimento(){
+        if(id != 0 && dia != 0 && mes != 0 && ano != 0 && /*hora != 0 && minuto != 0 && segundo != 0 &&*/ bpm != 0){
+            return 0;
+        } else {
+            return 1;
+        }
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    /*A alteração do tamanho da mensagem foi em BCService e a criação dos Pacotes de dados em BCFragment*/
+
 }

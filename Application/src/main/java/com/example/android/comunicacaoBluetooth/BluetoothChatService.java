@@ -476,11 +476,11 @@ public class BluetoothChatService {
             // Keep listening to the InputStream while connected
             while (mState == STATE_CONNECTED) {
                 try {
-                   if(bytesRead < 20) {
+                   if(bytesRead < 9) {
 
 
-                       if(mmInStream.available() >= 20){
-                           bytesRead = mmInStream.read(buffer, 0, 20);
+                       if(mmInStream.available() >= 9){
+                           bytesRead = mmInStream.read(buffer, 0, 9);
                        }
                        /*int available = mmInStream.available();
                        int bytesToRead = (available >= (20 -bytesRead))? (20 - bytesRead) : available;
@@ -504,7 +504,7 @@ public class BluetoothChatService {
 
                    }
 
-                   if(bytesRead == 20){
+                   if(bytesRead == 9){
                        // Send the obtained bytes to the UI Activity
                        mHandler.obtainMessage(Constants.MESSAGE_READ, bytesRead, -1, buffer)
                                .sendToTarget();
