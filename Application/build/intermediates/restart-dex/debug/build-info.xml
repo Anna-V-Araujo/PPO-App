@@ -5,32 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="433795225050548"
+    timestamp="708738813412712"
     token="-26956092651574540"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1566" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="838" />
     <task
         name="verifier"
-        duration="0" />
+        duration="106" />
+
+    <artifact
+        location="C:\Android\AndroidStudioProjects\TesteBluetoothChat\Application\build\outputs\apk\Application-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="432901229239542"
+        timestamp="708738813412712"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Android\AndroidStudioProjects\TesteBluetoothChat\Application\build\outputs\apk\Application-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="433795225050548"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

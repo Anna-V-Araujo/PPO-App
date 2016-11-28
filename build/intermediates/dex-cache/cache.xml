@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Android\AndroidStudioProjects\TesteBluetoothChat\Application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Android\AndroidStudioProjects\TesteBluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_aaede3a3c0a5d2735cb4a7d52c9dd3280bf6dbdf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Android\AndroidStudioProjects\TesteBluetoothChat\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -25,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="3a233b16773c8c3f39e6d1e8296441ee56c17480">
+        sha1="446652c932b9944c36dd35a9cd4c0277b1926cd5">
         <dex dex="C:\Android\AndroidStudioProjects\TesteBluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b429864ed0d488db4aa0624611bdce9c7e2db136\classes.dex" />
     </item>
     <item
@@ -45,15 +54,6 @@
         revision="24.0.1"
         sha1="6d7d803871e3203465f71a163e7af104f807b446">
         <dex dex="C:\Android\AndroidStudioProjects\TesteBluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_ae049af8058406e8fe7992c731603690944b10e2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\AndroidStudioProjects\TesteBluetoothChat\Application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="C:\Android\AndroidStudioProjects\TesteBluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_aaede3a3c0a5d2735cb4a7d52c9dd3280bf6dbdf\classes.dex" />
     </item>
     <item
         is-multidex="true"
