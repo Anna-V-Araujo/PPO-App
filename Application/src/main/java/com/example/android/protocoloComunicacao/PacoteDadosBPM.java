@@ -92,6 +92,34 @@ public class PacoteDadosBPM {
         return id;
     }
 
+    public int getDia() {
+        return dia;
+    }
+
+    public int getMes() {
+        return mes;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public int getHora() {
+        return hora;
+    }
+
+    public int getMinuto() {
+        return minuto;
+    }
+
+    public int getSegundo() {
+        return segundo;
+    }
+
+    public int getBpm() {
+        return bpm;
+    }
+
     /*A alteração do tamanho da mensagem foi em BCService e a criação dos Pacotes de dados em BCFragment*/
 
 }

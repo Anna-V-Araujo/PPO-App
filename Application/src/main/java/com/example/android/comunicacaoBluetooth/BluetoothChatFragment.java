@@ -329,7 +329,12 @@ public class BluetoothChatFragment extends Fragment {
                         }
                     }
  */
-                    mConversationArrayAdapter.add(mConnectedDeviceName + ":  " + readMessage);
+//                    mConversationArrayAdapter.add(mConnectedDeviceName + ":  " + readMessage);
+                    mConversationArrayAdapter.add(mConnectedDeviceName + ":  ID- " + pacoteDadosBPM.getId() + "  Data- " + pacoteDadosBPM.getDia() + "/"
+                                                                            + pacoteDadosBPM.getMes() + "/" + pacoteDadosBPM.getAno() + " " + pacoteDadosBPM.getHora()
+                                                                            + ":" + pacoteDadosBPM.getMinuto() + ":" + pacoteDadosBPM.getSegundo() + "\n  BPM- " + pacoteDadosBPM.getBpm());
+
+
                     break;
                 case Constants.MESSAGE_DEVICE_NAME:
                     // save the connected device's name
