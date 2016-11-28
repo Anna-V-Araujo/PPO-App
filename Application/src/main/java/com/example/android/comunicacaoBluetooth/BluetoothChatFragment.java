@@ -306,16 +306,20 @@ public class BluetoothChatFragment extends Fragment {
                     pacoteDadosBPM.decode(readBuf);
 
                     if(pacoteDadosBPM.validarPreenchimento() == 0){
+
                         PacoteConfirmacao pacoteConfirmacao = new PacoteConfirmacao(pacoteDadosBPM.getId(), 0);
                         mChatService.write(pacoteConfirmacao.encode());
+
                     } else {
+
                         PacoteConfirmacao pacoteConfirmacao = new PacoteConfirmacao(pacoteDadosBPM.getId(), 1);
                         mChatService.write(pacoteConfirmacao.encode());
                         //Preferi mostrar um toast do que criar exceção
                         Toast.makeText(activity, "O Pacote de Dados não foi recebido completamente", Toast.LENGTH_LONG).show();
+
                     }
 
-                    // construct a string from the valid bytes in the buffer
+                    //Construct a string from the valid bytes in the buffer
                     //Depois posso tirar isso
                     String readMessage = new String(readBuf, 0, msg.arg1 /*Tamanho da mensagem*/);
 /*                    String readMessage = "";

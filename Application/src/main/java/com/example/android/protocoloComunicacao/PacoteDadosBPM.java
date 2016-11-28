@@ -33,11 +33,15 @@ public class PacoteDadosBPM {
     //Encode tranforma o Pacote em bytes
     public byte[] encode(){
 
+        int anoPt1 = ano/100;
+        int anoPt2 = ano - (anoPt1*100);
+
         byte[] buffer = new byte[2];
         buffer[0] = (byte) id;
         buffer[1] = (byte) dia;
         buffer[2] = (byte) mes;
-        buffer[3] = (byte) ano; //ERRO => Deve ser posição 3 e 4.
+        buffer[3] = (byte) anoPt1;
+        buffer[4] = (byte) anoPt2;
         buffer[5] = (byte) hora;
         buffer[6] = (byte) minuto;
         buffer[7] = (byte) segundo;
