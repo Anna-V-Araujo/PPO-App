@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d6095c6-bd76-4979-810a-f4a4a9997405" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/persistencia/PersistenciaTextoBinario.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/persistencia/PersistenciaTextoBinario.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/protocoloComunicacao/PacoteDadosBPM.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/protocoloComunicacao/PacoteDadosBPM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/BluetoothChatFragment.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/BluetoothChatFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/MainActivity.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/MainActivity.java" />
     </list>
     <ignored path="TesteBluetoothChat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersistenciaTextoBinario.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersistenciaTextoBinario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/persistencia/PersistenciaTextoBinario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            <state relative-caret-position="23">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#PersistenciaTextoBinario#0" expanded="false" />
@@ -77,25 +77,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BluetoothChatFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BluetoothChatFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/BluetoothChatFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="314" column="58" selection-start-line="314" selection-start-column="58" selection-end-line="314" selection-end-column="58" />
               <folding>
                 <element signature="docComment;class#BluetoothChatFragment#0" expanded="false" />
                 <element signature="method#onStart#0;class#BluetoothChatFragment#0" expanded="false" />
-                <element signature="e#3371#3418#0" expanded="false" />
+                <element signature="e#3529#3576#0" expanded="false" />
                 <element signature="method#onDestroy#0;class#BluetoothChatFragment#0" expanded="false" />
                 <element signature="method#onResume#0;class#BluetoothChatFragment#0" expanded="false" />
                 <element signature="method#onCreateView#0;class#BluetoothChatFragment#0" expanded="false" />
@@ -1648,11 +1638,11 @@
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothchat/BluetoothChatService.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/protocoloComunicacao/PacoteConfirmacao.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/BluetoothChatService.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/BluetoothChatFragment.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/DeviceListActivity.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/MainActivity.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/protocoloComunicacao/PacoteDadosBPM.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/persistencia/PersistenciaTextoBinario.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/BluetoothChatFragment.java" />
       </list>
     </option>
   </component>
@@ -1808,6 +1798,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AndroidCharts-master" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="device.picker.selection" value="0019363926" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="161" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="162" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="837" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="829" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager" selected="Android App.Application">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -2144,13 +2150,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47269624" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42832765" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2708018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18430035" sideWeight="0.494705" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72696245" sideWeight="0.494705" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2219,7 +2225,7 @@
           <folding>
             <element signature="docComment;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onStart#0;class#BluetoothChatFragment#0" expanded="false" />
-            <element signature="e#3371#3418#0" expanded="false" />
+            <element signature="e#3529#3576#0" expanded="false" />
             <element signature="method#onDestroy#0;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onResume#0;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onCreateView#0;class#BluetoothChatFragment#0" expanded="false" />
@@ -2300,7 +2306,7 @@
           <folding>
             <element signature="docComment;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onStart#0;class#BluetoothChatFragment#0" expanded="false" />
-            <element signature="e#3371#3418#0" expanded="false" />
+            <element signature="e#3529#3576#0" expanded="false" />
             <element signature="method#onDestroy#0;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onResume#0;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onCreateView#0;class#BluetoothChatFragment#0" expanded="false" />
@@ -2685,6 +2691,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/protocoloComunicacao/PacoteDadosBPM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/protocoloComunicacao/PacoteConfirmacao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -2693,14 +2715,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/persistencia/PersistenciaTextoBinario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#PersistenciaTextoBinario#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/BluetoothChatFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="314" column="58" selection-start-line="314" selection-start-column="58" selection-end-line="314" selection-end-column="58" />
           <folding>
             <element signature="docComment;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onStart#0;class#BluetoothChatFragment#0" expanded="false" />
-            <element signature="e#3371#3418#0" expanded="false" />
+            <element signature="e#3529#3576#0" expanded="false" />
             <element signature="method#onDestroy#0;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onResume#0;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onCreateView#0;class#BluetoothChatFragment#0" expanded="false" />
@@ -2721,33 +2754,6 @@
             <element signature="method#connectDevice#0;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#BluetoothChatFragment#0" expanded="false" />
             <element signature="method#onOptionsItemSelected#0;class#BluetoothChatFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/protocoloComunicacao/PacoteDadosBPM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/comunicacaoBluetooth/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/persistencia/PersistenciaTextoBinario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#PersistenciaTextoBinario#0" expanded="false" />
           </folding>
         </state>
       </provider>

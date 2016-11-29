@@ -44,8 +44,11 @@ import android.widget.Toast;
 
 import com.example.android.bluetoothchat.R;
 import com.example.android.common.logger.Log;
+import com.example.android.persistencia.PersistenciaTextoBinario;
 import com.example.android.protocoloComunicacao.PacoteConfirmacao;
 import com.example.android.protocoloComunicacao.PacoteDadosBPM;
+
+import java.io.IOException;
 
 /**
  * This fragment controls Bluetooth to communicate with other devices.
@@ -90,6 +93,8 @@ public class BluetoothChatFragment extends Fragment {
         setHasOptionsMenu(true);
         // Get local Bluetooth adapter
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+
+        PersistenciaTextoBinario.getInstance().criarStream();
 
         // If the adapter is null, then Bluetooth is not supported
         if (mBluetoothAdapter == null) {
@@ -309,6 +314,12 @@ public class BluetoothChatFragment extends Fragment {
 
                         PacoteConfirmacao pacoteConfirmacao = new PacoteConfirmacao(pacoteDadosBPM.getId(), 0);
                         mChatService.write(pacoteConfirmacao.encode());
+
+                        try {
+                            PersistenciaTextoBinario.getInstance().salvarNoArquivo(readBuf);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
 
                     } else {
 
