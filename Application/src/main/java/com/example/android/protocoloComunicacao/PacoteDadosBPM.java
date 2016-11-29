@@ -36,7 +36,7 @@ public class PacoteDadosBPM {
         int anoPt1 = ano/100;
         int anoPt2 = ano - (anoPt1*100);
 
-        byte[] buffer = new byte[2];
+        byte[] buffer = new byte[9];
         buffer[0] = (byte) id;
         buffer[1] = (byte) dia;
         buffer[2] = (byte) mes;

@@ -15,9 +15,19 @@ import java.util.List;
 
 public class PersistenciaTextoBinario {
 
-    File pacoteBPMPersist = new File("PacoteBPMPersistencia.txt" /*Título do arquivo*/);
-    OutputStream outputStream;
-    InputStream inputStream;
+    private static PersistenciaTextoBinario instance;
+    private PersistenciaTextoBinario(){
+
+    }
+    public static PersistenciaTextoBinario getInstance() {
+        if(instance==null)
+            instance = new PersistenciaTextoBinario();
+        return instance;
+    }
+
+    File pacoteBPMPersist = new File("PacoteBPMPersistencia.txt" /*Nome do arquivo*/);
+    FileOutputStream outputStream;
+    FileInputStream inputStream;
 
 
     public void criarStream(){
@@ -43,17 +53,20 @@ public class PersistenciaTextoBinario {
         int posicaoFinal = 8;
 
         if(inputStream.available() > 9){
-            byte[] buffer = new byte[9];
-            inputStream.read(buffer, posicaoInicial, posicaoFinal);
-            buffersList.add(buffer);
-            posicaoInicial = posicaoInicial + 9;
-            posicaoFinal = posicaoFinal + 9;
+           while (inputStream.read() != -1) {
+               byte[] buffer = new byte[9];
+               inputStream.read(buffer, posicaoInicial, posicaoFinal);
+               buffersList.add(buffer);
+               posicaoInicial = posicaoInicial + 9;
+               posicaoFinal = posicaoFinal + 9;
+           }
         }
-
         return buffersList;
-
-
     }
 
+    public void fecharStream() throws IOException {
+        inputStream.close();
+        outputStream.close();
+    }
 
 }
